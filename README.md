@@ -6,7 +6,7 @@ envie a planilha modelo via API disponibilizada para o teste.
 
 ## Comandos usados:
 
-==> Comando para acessar o banco de dados no ISQL Tool:
+===> Comando para acessar o banco de dados no ISQL Tool:
 
  CONNECT C:\Users\Lenovo\Documents\Shinier\BancoTeste\MEU_BANCO_DE_DADOS.FDB USER 'SYSDBA' PASSWORD 'masterkey';
 
@@ -26,9 +26,6 @@ SHOW TABLES;
 
 SELECT * FROM CLIENTES INTO 'C:\Users\Lenovo\Documents\Shinier\BancoTeste\clientes.csv' 
 FIELDS TERMINATED BY ';' ENCLOSED BY '"' ESCAPE BY '\\' ;
-
-
-XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
 
 ====> NO SGBD
 
